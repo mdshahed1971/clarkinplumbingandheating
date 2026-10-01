@@ -50,8 +50,8 @@ export function Problems() {
             <AnimatePresence mode="popLayout">
               <motion.img
                 key={active}
-                src={PROBLEMS[active].img}
-                alt={PROBLEMS[active].p}
+                src={PROBLEMS[active]!.img}
+                alt={PROBLEMS[active]!.p}
                 loading="lazy"
                 className="absolute inset-0 h-full w-full object-cover"
                 initial={{ opacity: 0, scale: 1.1 }}
