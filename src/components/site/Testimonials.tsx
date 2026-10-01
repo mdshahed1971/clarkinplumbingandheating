@@ -44,9 +44,9 @@ export function Testimonials() {
         </Reveal>
         <div className="mt-16" style={{ perspective: "1200px" }}>
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3" style={{ transform: "rotateX(14deg) rotateZ(-3deg)", transformStyle: "preserve-3d" }}>
-            <Column items={cols[0]} dir="up" dur="34s" />
-            <div className="hidden sm:block"><Column items={cols[1]} dir="down" dur="40s" /></div>
-            <div className="hidden lg:block"><Column items={cols[2]} dir="up" dur="30s" /></div>
+            <Column items={cols[0]!} dir="up" dur="34s" />
+            <div className="hidden sm:block"><Column items={cols[1]!} dir="down" dur="40s" /></div>
+            <div className="hidden lg:block"><Column items={cols[2]!} dir="up" dur="30s" /></div>
           </div>
         </div>
       </div>
