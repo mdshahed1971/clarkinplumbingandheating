@@ -25,7 +25,7 @@ const POINTS = [
 
 export function Trust() {
   return (
-    <section id="trust" className="relative py-24 md:py-36">
+    <section id="trust" className="relative overflow-x-clip py-24 md:py-36">
       <div className="mx-auto grid max-w-7xl gap-16 px-5 md:px-8 lg:grid-cols-12">
         <div className="lg:col-span-5">
           <Reveal><Eyebrow>Why people call Chris</Eyebrow></Reveal>
